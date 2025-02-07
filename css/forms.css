@@ -1,0 +1,293 @@
+@media  (max-width: 1080px){
+    .form-size{
+        width: 90%;
+    }
+
+    .form-note-size{
+        width: 90%;
+    }
+
+    .signup-size{
+        margin-left: 7.5%;
+        width: 85%;
+    }
+    
+    .note-width{
+        width: 90%;
+    }
+
+    .note-content-width{
+        width: 90%;
+    }
+
+     .title-width{
+        width: 90%;
+    }
+    
+   .content-width{
+        width: 80%;
+    }
+
+    .form-note-margin-left{
+        margin-left: 5%;
+    }
+
+    .toolbar{
+        display: inline-block;
+        width: 90%;
+        
+    }
+
+    #cancel_note{
+        display: none;
+    }
+
+    /* #operations{
+        display: inline-block;
+        width: 300px;
+    } */
+
+    .note-cards{
+        
+        padding-left: 10%;
+    }
+
+    .container-responsive{
+        width: 100%;
+    }
+
+    #categories{
+        width: 30px; 
+    }
+
+  
+
+    .categories-mobile-display{
+        display: inline;
+    }
+}
+
+
+
+@media (min-width: 1081px) and (max-width: 1500px){
+
+    
+    /* #operations{
+        display: inline-block;
+        width: 550px;
+    } */
+
+    .form-size{
+        width: 30%;
+    }
+
+    .form-note-size{
+        width: 100%;
+    }
+
+    .signup-size{
+        margin-left: 10%;
+        width: 80%;
+    }
+
+  .content-width{
+        width: 80%;
+    }
+
+    .note-width{
+        width: 80%;
+    }
+
+    .form-note-margin-left{
+        margin-left: 5.5%;
+    }
+    .toolbar{
+        width: 1000px;
+        margin-left: 5.5%;
+    }
+
+     .container-responsive{
+        width: 80%;
+    }
+
+    #categories{
+        width: 200px; 
+    }
+
+    #categories_icon{
+        display: none;
+    }
+
+    .note-editor{
+        display: flex;
+      flex-direction: column;
+    }
+
+    .note-content-width{
+        /*width: 1000px;*/
+        margin: 0 auto;
+    }
+
+     .title-width{
+        margin: 0 auto;
+    }
+
+    
+
+}
+
+@media (min-width: 1501px) and (max-width: 1943px) {
+
+     .signup-size{
+        margin-left: 13%;
+        width: 80%;
+    }
+
+    #categories-mobile{
+        display: none;
+    }
+
+   .content-width{
+        width: 80%;
+    }
+
+    .note-width{
+        width: 80%;
+    }
+}
+
+@media (max-width: 2976px){
+    .toolbar{
+        width: 90%;
+        height: 40px;
+    }
+}
+
+@media (min-width: 1944px) and (max-width: 3800px) {
+    
+
+    .form-size{
+        width: 30%;
+    }
+
+    .form-note-size{
+        width: 90%;
+    }
+
+    .signup-size{
+        margin-left: 33%;
+        width: 50%;
+    }
+
+    .content-width{
+        width: 80%;
+    }
+
+    .note-width{
+        width: 90%;
+    }
+
+    .form-note-margin-left{
+        margin-left: 25%;
+    }
+
+    .toolbar{
+        width: 70%;
+    }
+
+     .container-responsive{
+        width: 40%;
+    }
+
+    #categories_icon{
+        display: none;
+    }
+}
+
+@media (min-width: 3801px) {
+
+    /* #operations{
+        display: inline-block;
+        width: 550px;
+    } */
+
+    .form-size{
+        width: 30%;
+    }
+
+    .form-note-size{
+        width: 90%;
+    }
+
+    .signup-size{
+        margin-left: 33%;
+        width: 50%;
+    }
+
+    .content-width{
+        width: 80%;
+    }
+
+    .note-width{
+        width: 90%;
+    }
+
+    .form-note-margin-left{
+        margin-left: 25%;
+    }
+
+    .toolbar{
+        width: 70%;
+    }
+
+     .container-responsive{
+        width: 40%;
+    }
+
+    #categories_icon{
+        display: none;
+    }
+    
+}
+
+
+
+
+a{
+    font-weight: 1; 
+    color: rgb(91, 186, 91);
+    cursor: pointer;
+}
+
+
+.img-in-note{
+    width: 70%;
+}
+
+.toolbar{
+    width: 55%;
+}
+
+.note-cards{
+    width: 80%;
+    display: block;
+}
+
+#categories{
+    width: 200px; 
+}
+
+
+.show-inline{
+    display: inline;
+}
+
+.show-block{
+    
+    display: block;
+}
+
+.hide{
+    display: none;
+}   
+
