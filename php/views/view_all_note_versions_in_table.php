@@ -57,6 +57,12 @@
                 $sufix = (strlen($NoteLatestVersion->getContent()) >= 350)?"...":"";
                 $notecontentpeek = substr($NoteLatestVersion->getContent(), 0, 350) . $sufix;
 
+
+                 if(str_contains($notecontentpeek, "<img")){
+                    $notecontentpeek = str_replace("<img","<img width='150px'", $notecontentpeek);
+                }
+                
+                
                       //  $notecontentpeek = str_replace('/', '\/', $notecontentpeek);
 
                 $sqlImagesInNote = "SELECT * FROM Image INNER JOIN Note ON NoteID = FK_NoteID WHERE NoteID=".$NoteLatestVersion->getID();
